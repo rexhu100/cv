@@ -1,3 +1,42 @@
-.header {
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Satisfy', cursive;
+    font-size: 5.6rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.title_block {
+    background-color: #fcf8e8;
+}
+
+.title_cloud {
+    display: inline-block;
+    margin-right: 20%;
+    opacity: 0.7;
+    width: 35%;
+}
+
+.title_mountain {
+    width: 60%;
+}
+
+.profile {
     width: 300px;
+    border-radius: 90%;
 }

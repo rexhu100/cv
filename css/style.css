@@ -1,6 +1,8 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -17,8 +19,10 @@ h2 {
     font-weight: normal;
 }
 
-p {
-    font-family: 'Lato', sans-serif;
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
 }
 
 .title_block {
@@ -38,5 +42,16 @@ p {
 
 .profile {
     width: 300px;
-    border-radius: 90%;
+    border-radius: 100%;
+}
+
+.intro_block {
+    background-color: #d4e2d4;
+    padding-top: 5rem;
+}
+
+.intro_text {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: left;
 }

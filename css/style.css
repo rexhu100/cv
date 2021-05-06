@@ -51,7 +51,19 @@ h3 {
 }
 
 .intro_text {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     text-align: left;
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.mern_stack {
+    width: 60%;
 }
